@@ -10,6 +10,36 @@ import {
 } from "../controller/registerController.js";
 
 const registerRouter = express.Router();
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     RegisterUser:
+ *       type: object
+ *       required:
+ *         - name
+ *         - email
+ *         - password
+ *       properties:
+ *         name:
+ *           type: string
+ *           description: The user's full name
+ *         email:
+ *           type: string
+ *           description: The user's email (required, unique)
+ *         password:
+ *           type: string
+ *           description: The user's password (hashed)
+ *         phone:
+ *           type: string
+ *           description: The user's phone number
+ *           nullable: true
+ *         role:
+ *           type: string
+ *           enum: ["ADMIN", "STUDENT"]
+ *           default: "ADMIN"
+ *           description: The user's role (ADMIN or STUDENT)
+ */
 
 /**
  * @swagger
@@ -41,16 +71,7 @@ registerRouter.route("/profile").get(Profile);
  *       content:
  *         application/json:
  *           schema:
- *             type: object
- *             properties:
- *               name:
- *                 type: string
- *               email:
- *                 type: string
- *               password:
- *                 type: string
- *               phone:
- *                 type: string
+ *             $ref: '#/components/schemas/RegisterUser'
  *     responses:
  *       '200':
  *         description: User registered successfully
@@ -101,14 +122,7 @@ registerRouter.route("/getUsers").get(getAllUsers);
  *       content:
  *         application/json:
  *           schema:
- *             type: object
- *             properties:
- *               name:
- *                 type: string
- *               email:
- *                 type: string
- *               phone:
- *                 type: string
+ *             $ref: '#/components/schemas/RegisterUser'
  *     responses:
  *       '200':
  *         description: User updated successfully
@@ -166,11 +180,7 @@ registerRouter.route("/delete/:userId").delete(deleteUser);
  *       content:
  *         application/json:
  *           schema:
- *             type: object
- *             properties:
- *               newPassword:
- *                 type: string
- *                 description: The new password for the user
+ *             $ref: '#/components/schemas/RegisterUser'
  *     responses:
  *       '200':
  *         description: Password updated successfully
@@ -194,14 +204,7 @@ registerRouter.route("/changePassword/:userId").post(changePassword);
  *       content:
  *         application/json:
  *           schema:
- *             type: object
- *             properties:
- *               email:
- *                 type: string
- *                 description: User's email address
- *               password:
- *                 type: string
- *                 description: User's password
+ *             $ref: '#/components/schemas/RegisterUser'
  *     responses:
  *       '200':
  *         description: Login successful

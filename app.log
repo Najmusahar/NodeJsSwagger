@@ -86,3 +86,59 @@
   role: 'ADMIN',
   __v: 0
 }
+2024-09-25T13:06:36.774Z [BOBO!] error: Email already exists
+2024-09-25T13:06:55.038Z [BOBO!] info: User registered successfully
+2024-09-25T13:08:50.809Z [BOBO!] info: {
+  _id: new ObjectId('66f3ff68be9c95171569c459'),
+  name: 'string',
+  email: 'string',
+  password: '$2a$10$W3x3IwcGAt1twqqHxc6QhOC2jkOx/th9S3NCwtZYgb4Wph1C7Nc5y',
+  phone: 'string',
+  role: 'ADMIN',
+  __v: 0
+},{
+  _id: new ObjectId('66f40aee6b8934e8ae8252dd'),
+  name: 'string',
+  email: 'string1',
+  password: '$2a$10$R3y3IwXlyx5GnEMzdb44COc./1swL3cmeehJK6Lfjz03u.8tiODo.',
+  phone: 'string',
+  role: 'ADMIN',
+  __v: 0
+}
+2024-09-25T13:09:07.032Z [BOBO!] info: {
+  _id: new ObjectId('66f3ff68be9c95171569c459'),
+  name: 'string',
+  email: 'string',
+  password: '$2a$10$W3x3IwcGAt1twqqHxc6QhOC2jkOx/th9S3NCwtZYgb4Wph1C7Nc5y',
+  phone: 'string',
+  role: 'ADMIN',
+  __v: 0
+},{
+  _id: new ObjectId('66f40aee6b8934e8ae8252dd'),
+  name: 'string',
+  email: 'string1',
+  password: '$2a$10$R3y3IwXlyx5GnEMzdb44COc./1swL3cmeehJK6Lfjz03u.8tiODo.',
+  phone: 'string',
+  role: 'ADMIN',
+  __v: 0
+}
+2024-09-25T13:09:08.340Z [BOBO!] info: {
+  _id: new ObjectId('66f3ff68be9c95171569c459'),
+  name: 'string',
+  email: 'string',
+  password: '$2a$10$W3x3IwcGAt1twqqHxc6QhOC2jkOx/th9S3NCwtZYgb4Wph1C7Nc5y',
+  phone: 'string',
+  role: 'ADMIN',
+  __v: 0
+},{
+  _id: new ObjectId('66f40aee6b8934e8ae8252dd'),
+  name: 'string',
+  email: 'string1',
+  password: '$2a$10$R3y3IwXlyx5GnEMzdb44COc./1swL3cmeehJK6Lfjz03u.8tiODo.',
+  phone: 'string',
+  role: 'ADMIN',
+  __v: 0
+}
+2024-09-25T13:09:36.330Z [BOBO!] info: [object Object]
+2024-09-25T13:09:52.931Z [BOBO!] info: Deleted Successfully
+2024-09-25T13:10:25.610Z [BOBO!] info: Login successfull
