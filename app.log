@@ -1,0 +1,88 @@
+2024-09-25T11:51:17.692Z [BOBO!] error: register validation failed: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required. - ValidationError: register validation failed: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required.
+    at Document.invalidate (C:\Users\Najmusahar Kalkoti\React\swaggerImplementation\node_modules\mongoose\lib\document.js:3312:32)
+    at C:\Users\Najmusahar Kalkoti\React\swaggerImplementation\node_modules\mongoose\lib\document.js:3073:17
+    at C:\Users\Najmusahar Kalkoti\React\swaggerImplementation\node_modules\mongoose\lib\schemaType.js:1388:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-09-25T11:52:05.444Z [BOBO!] error: register validation failed: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required. - ValidationError: register validation failed: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required.
+    at Document.invalidate (C:\Users\Najmusahar Kalkoti\React\swaggerImplementation\node_modules\mongoose\lib\document.js:3312:32)
+    at C:\Users\Najmusahar Kalkoti\React\swaggerImplementation\node_modules\mongoose\lib\document.js:3073:17
+    at C:\Users\Najmusahar Kalkoti\React\swaggerImplementation\node_modules\mongoose\lib\schemaType.js:1388:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-09-25T11:54:26.819Z [BOBO!] error: register validation failed: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required. - ValidationError: register validation failed: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required.
+    at Document.invalidate (C:\Users\Najmusahar Kalkoti\React\swaggerImplementation\node_modules\mongoose\lib\document.js:3312:32)
+    at C:\Users\Najmusahar Kalkoti\React\swaggerImplementation\node_modules\mongoose\lib\document.js:3073:17
+    at C:\Users\Najmusahar Kalkoti\React\swaggerImplementation\node_modules\mongoose\lib\schemaType.js:1388:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-09-25T12:14:07.786Z [BOBO!] info: User registered successfully
+2024-09-25T12:17:44.636Z [BOBO!] info: User registered successfully
+2024-09-25T12:19:13.560Z [BOBO!] info: {
+  _id: new ObjectId('66f3fe8fc710294532b54433'),
+  name: 'najmusahar',
+  email: 'najmu@gmail.com',
+  password: '$2a$10$r7JvLnuHWJLRnWj2I9uCDOv1HoBGnvWI5pV3wYzbs9t7PrB406P5K',
+  phone: '1234567890',
+  role: 'ADMIN',
+  __v: 0
+},{
+  _id: new ObjectId('66f3ff68be9c95171569c459'),
+  name: 'string',
+  email: 'string',
+  password: '$2a$10$W3x3IwcGAt1twqqHxc6QhOC2jkOx/th9S3NCwtZYgb4Wph1C7Nc5y',
+  phone: 'string',
+  role: 'ADMIN',
+  __v: 0
+}
+2024-09-25T12:19:15.999Z [BOBO!] info: {
+  _id: new ObjectId('66f3fe8fc710294532b54433'),
+  name: 'najmusahar',
+  email: 'najmu@gmail.com',
+  password: '$2a$10$r7JvLnuHWJLRnWj2I9uCDOv1HoBGnvWI5pV3wYzbs9t7PrB406P5K',
+  phone: '1234567890',
+  role: 'ADMIN',
+  __v: 0
+},{
+  _id: new ObjectId('66f3ff68be9c95171569c459'),
+  name: 'string',
+  email: 'string',
+  password: '$2a$10$W3x3IwcGAt1twqqHxc6QhOC2jkOx/th9S3NCwtZYgb4Wph1C7Nc5y',
+  phone: 'string',
+  role: 'ADMIN',
+  __v: 0
+}
+2024-09-25T12:24:12.276Z [BOBO!] info: {
+  _id: new ObjectId('66f3fe8fc710294532b54433'),
+  name: 'najmusahar',
+  email: 'najmu@gmail.com',
+  password: '$2a$10$r7JvLnuHWJLRnWj2I9uCDOv1HoBGnvWI5pV3wYzbs9t7PrB406P5K',
+  phone: '1234567890',
+  role: 'ADMIN',
+  __v: 0
+},{
+  _id: new ObjectId('66f3ff68be9c95171569c459'),
+  name: 'string',
+  email: 'string',
+  password: '$2a$10$W3x3IwcGAt1twqqHxc6QhOC2jkOx/th9S3NCwtZYgb4Wph1C7Nc5y',
+  phone: 'string',
+  role: 'ADMIN',
+  __v: 0
+}
+2024-09-25T12:24:27.058Z [BOBO!] info: [object Object]
+2024-09-25T12:27:19.291Z [BOBO!] info: Deleted Successfully
+2024-09-25T12:27:32.847Z [BOBO!] info: {
+  _id: new ObjectId('66f3ff68be9c95171569c459'),
+  name: 'string',
+  email: 'string',
+  password: '$2a$10$W3x3IwcGAt1twqqHxc6QhOC2jkOx/th9S3NCwtZYgb4Wph1C7Nc5y',
+  phone: 'string',
+  role: 'ADMIN',
+  __v: 0
+}
+2024-09-25T12:39:24.768Z [BOBO!] info: {
+  _id: new ObjectId('66f3ff68be9c95171569c459'),
+  name: 'string',
+  email: 'string',
+  password: '$2a$10$W3x3IwcGAt1twqqHxc6QhOC2jkOx/th9S3NCwtZYgb4Wph1C7Nc5y',
+  phone: 'string',
+  role: 'ADMIN',
+  __v: 0
+}
